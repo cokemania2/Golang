@@ -9,9 +9,9 @@ func main() {
 	// some configuration
 	hostURL := "smtp.gmail.com"
 	hostPort := "587"
-	emailSender := "linuxware123123@gmail.com"
-	password := "flsnrtm123"
-	emailRecevier := "coke_mania@naver.com"
+	emailSender := SENDER
+	password := PASSWORD
+	emailRecevier := RECEVIER
 
 	// Create Auth
 	emailAuth := smtp.PlainAuth(
